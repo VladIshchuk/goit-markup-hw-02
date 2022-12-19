@@ -1,0 +1,130 @@
+.header-logo :hover{
+    color: blue;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24/18);
+}
+
+.header-logo :focus{
+    color: #4D5AE5;
+}
+
+.header-logo{
+    color: #4D5AE5;
+}
+
+.span{
+    color: black;
+}
+
+.header-links :hover,
+.header-links :focus{
+    color:#4D5AE5;
+}
+
+.header-links{
+    list-style: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: calc(24/16);
+color: #2E2F42;
+}
+
+.header-mail{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24/16);
+    color: #434455;
+}
+
+.header-tel{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24/16);
+    color: #434455;
+}
+.header-mail :hover,
+.header-mail :focus{
+    color: #4D5AE5;
+}
+
+.header-tel :hover,
+.header-tel :focus{
+    color: #4D5AE5;
+}
+
+.button{
+    background-color: #F4F4FD;
+color: #4D5AE5;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(24/16);
+cursor: pointer;
+}
+
+.button :hover,
+.button :focus{
+    background-color: #404BBF;
+    color: #FFFFFF;
+}
+
+.work-h{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: calc(24/20);
+}
+
+.works p {
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: calc(24/16);
+}
+
+.works li {
+    list-style: none;
+}
+
+.footer-link :hover,
+.footer-link :focus{
+    color: blue;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24/18); 
+}
+
+.span-two{
+    color: #F4F4FD;
+}
+
+.footer-text{
+    color: #E7E9FC;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: calc(24/16);
+}
+
+.footer{
+    background-color: #2E2F42;
+}
+
+.footer-link{
+    color: #4D5AE5;
+}
