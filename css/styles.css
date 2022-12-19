@@ -1,0 +1,184 @@
+.header-logo :hover{
+    color: blue;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24/18);
+}
+
+.header-logo :focus{
+    color: #4D5AE5;
+}
+
+.header-logo{
+    color: #4D5AE5;
+}
+
+.span{
+    color: black;
+}
+
+.header-links :hover,
+.header-links :focus{
+    color:#4D5AE5;
+}
+
+.header-links{
+    list-style: none;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: calc(24/16);
+color: #2E2F42;
+}
+
+.header-mail{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24/16);
+    color: #434455;
+}
+
+.header-tel{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24/16);
+    color: #434455;
+}
+.header-mail :hover,
+.header-mail :focus{
+    color: #4D5AE5;
+}
+
+.header-tel :hover,
+.header-tel :focus{
+    color: #4D5AE5;
+}
+
+.hero-txt{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: calc(60/56);
+}
+
+.hero-button{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: calc(19/16);
+background-color: #4D5AE5;
+color: white;
+height: 51px;
+width: 170px;
+cursor: pointer;
+}
+
+.hero-button :hover,
+.hero-button :focus{
+    color: black;
+}
+
+.advantages-punkts li {
+    color: #2E2F42;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: calc(24/20);
+list-style: none;
+}
+
+.advantages-punkts p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: calc(24/20);
+    list-style: none;
+    color: #2E2F42;
+}
+
+.what-doing{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: calc(40/36);
+color: #2E2F42;
+}
+
+.worksis li{
+    list-style: none;
+}
+
+.team{
+    background-color: #F4F4FD;
+}
+
+.Our-Team{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(40/36);
+    color: #2E2F42;
+}
+
+.worklist li{
+    color: #2E2F42;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: calc(24/20);
+list-style: none;
+}
+
+.worklist p {
+    color: #2E2F42;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: calc(24/16);
+}
+
+.footer-link :hover,
+.footer-link :focus{
+    color: blue;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(24/18); 
+}
+
+.span-two{
+    color: #F4F4FD;
+}
+
+.footer-text{
+    color: #E7E9FC;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: calc(24/16);
+}
+
+.footer{
+    background-color: #2E2F42;
+}
+
+.footer-link{
+    color: #4D5AE5;
+}
