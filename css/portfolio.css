@@ -1,95 +1,135 @@
-.header-logo :hover{
-    color: blue;
+
+:root{
+    --iris-color: #4D5AE5
+}
+
+:root{
+    --navy-color: #2E2F42
+}
+
+:root{
+    --slate-color: #2E2F42
+}
+
+:root{
+    --flower-color: #E7E9FC
+}
+
+:root{
+    --cloud-color: #F4F4FD
+}
+
+:root{
+    --ocean-color: #404BBF
+}
+
+
+body{
+    font-family: "Roboto" , sans-serif;
+}
+
+:root{
+    --white-color: #FFFFFF
+}
+
+.button{
+    color: var(--iris-color);
+    background-color: var(--flower-color);
+}
+
+.button-navi li :hover,
+.button-navi li :focus{
+    color: var(--white-color);
+    background-color: var(--ocean-color);
+}
+
+
+.header a{
+    text-decoration: none;
+    list-style: none;
+}
+
+.header-logo :focus{
+    color:var(--iris-color);
+}
+
+.header-logo{
+    color:var(--iris-color);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: calc(24/18);
 }
 
-.header-logo :focus{
-    color: #4D5AE5;
-}
-
-.header-logo{
-    color: #4D5AE5;
-}
-
 .span{
-    color: black;
+    color:var(--navy-color);
 }
 
 .header-links :hover,
 .header-links :focus{
-    color:#4D5AE5;
+    color:var(--iris-color);
 }
 
 .header-links{
     list-style: none;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 600;
+color:var(--navy-color);
+font-weight: 500;
 font-size: 16px;
 line-height: calc(24/16);
-color: #2E2F42;
 }
 
-.header-mail{
-    font-family: 'Roboto';
-    font-style: normal;
+.header-studio{
+    text-decoration: none
+}
+
+.contacts a{
+    color: var(--slate-color);
     font-weight: 400;
-    font-size: 16px;
-    line-height: calc(24/16);
-    color: #434455;
+font-size: 16px;
+line-height: calc(24/16);
 }
 
-.header-tel{
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: calc(24/16);
-    color: #434455;
-}
-.header-mail :hover,
-.header-mail :focus{
-    color: #4D5AE5;
+.contacts{
+    list-style: none;
 }
 
-.header-tel :hover,
-.header-tel :focus{
-    color: #4D5AE5;
+.contacts :hover,
+.contacts :focus{
+    color:var(--iris-color);
 }
 
 .button{
-    background-color: #F4F4FD;
-color: #4D5AE5;
-font-family: 'Roboto';
-font-style: normal;
-font-weight: 700;
+    background-color: var(--cloud-color);
+color: var(--iris-color);
+cursor: pointer;
+font-weight: 500;
 font-size: 16px;
 line-height: calc(24/16);
-cursor: pointer;
 }
 
-.button :hover,
 .button :focus{
-    background-color: #404BBF;
-    color: #FFFFFF;
+    background-color: var(--ocean-color);
+    color: var(--white-color);
+}
+
+.button-navi li{
+    list-style: none;
 }
 
 .work-h{
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
+    color: var(--navy-color);
+    font-weight: 500;
 font-size: 20px;
 line-height: calc(24/20);
 }
 
-.works p {
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+.workes a{
+    text-decoration: none;
+}
+
+.workes p{
+    color: var(--slate-color);
+    font-weight: 400;
 font-size: 16px;
 line-height: calc(24/16);
 }
@@ -98,27 +138,17 @@ line-height: calc(24/16);
     list-style: none;
 }
 
-.footer-link :hover,
-.footer-link :focus{
-    color: blue;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 800;
-    font-size: 18px;
-    line-height: calc(24/18); 
-}
 
 .span-two{
-    color: #F4F4FD;
+    color: var(--cloud-color);
 }
 
 .footer-text{
-    color: #E7E9FC;
-    font-family: 'Roboto';
-font-style: normal;
-font-weight: 400;
+    color: var(--flower-color);
+    font-weight: 400;
 font-size: 16px;
 line-height: calc(24/16);
+
 }
 
 .footer{
@@ -126,5 +156,22 @@ line-height: calc(24/16);
 }
 
 .footer-link{
-    color: #4D5AE5;
+    color: var(--iris-color);
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(21/18);
 }
+
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  } 
